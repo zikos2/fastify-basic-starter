@@ -1,0 +1,27 @@
+{
+  "name": "fast",
+  "version": "1.0.0",
+  "description": "A very basic fastify starter api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Zakaria Ettani",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.20.1",
+    "fastify-plugin": "^3.0.0",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.7",
+    "pino-pretty": "^5.1.3"
+  }
+}
